@@ -1,0 +1,6 @@
+# SEO tag
+title: Alfabet
+
+baseurl: "" # the subpath of your site, e.g. /blog
+plugins:
+  - jekyll-seo-tag
