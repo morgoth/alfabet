@@ -1,7 +1,26 @@
-<div class="btn-group mb-3">
-  {% for letter in site.data.letters %}
-    <a href="/cars/{{ letter }}" class="capitalize btn btn-lg btn-outline-primary {% if include.active == letter %}active{% endif %}">
-      {{ letter }}
-    </a>
-  {% endfor %}
+<div class="btn-toolbar" role="toolbar" aria-label="Letters">
+  <div class="btn-group me-2 mb-2" role="group">
+    <a href="/cars/a" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'a' %}active{% endif %}">a</a>
+    <a href="/cars/b" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'b' %}active{% endif %}">b</a>
+    <a href="/cars/c" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'c' %}active{% endif %}">c</a>
+    <a href="/cars/d" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'd' %}active{% endif %}">d</a>
+    <a href="/cars/e" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'e' %}active{% endif %}">e</a>
+    <a href="/cars/f" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'f' %}active{% endif %}">f</a>
+    <a href="/cars/g" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'g' %}active{% endif %}">g</a>
+  </div>
+  <div class="btn-group me-2 mb-2" role="group">
+    <a href="/cars/h" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'h' %}active{% endif %}">h</a>
+    <a href="/cars/i" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'i' %}active{% endif %}">i</a>
+    <a href="/cars/j" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'j' %}active{% endif %}">j</a>
+    <a href="/cars/k" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'k' %}active{% endif %}">k</a>
+    <a href="/cars/l" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'l' %}active{% endif %}">l</a>
+    <a href="/cars/m" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'm' %}active{% endif %}">m</a>
+    <a href="/cars/n" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'n' %}active{% endif %}">n</a>
+  </div>
+  <div class="btn-group me-2 mb-2" role="group">
+    <a href="/cars/o" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'o' %}active{% endif %}">o</a>
+    <a href="/cars/p" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'p' %}active{% endif %}">p</a>
+    <a href="/cars/r" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 'r' %}active{% endif %}">r</a>
+    <a href="/cars/s" class="capitalize btn btn-lg btn-outline-primary {% if include.active == 's' %}active{% endif %}">s</a>
+  </div>
 </div>
